@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="static/color-gradient.png">
+    <script src="static/script.js"></script>
+    <title>GRADIENT # BRIGHT</title>
+</head>
+<body>
+    <div class="color-display" id="col-display">
+        <div class="app-header">
+            <button id="help-butt" onclick="displayModal('help-butt')">help?</button>
+            <button id="about-butt" onclick="displayModal('about-butt')">about</button>
+            <button id="hide-butt" onclick="hideUI()" style="width: 32px;">x</button>
+        </div>
+        <div class="color-text--wrap">
+            <div class="color-text" id="col-text" onclick="changeColorPalette()">#bright</div>
+        </div>
+    </div>
+
+    <div class="app-modal" id="tip-modal" onclick="closeModal()">
+        <div class="app-modal-content" id="tip-content">
+            <p>placeholder</p>
+        </div>
+    </div>
+</body>
+</html>
